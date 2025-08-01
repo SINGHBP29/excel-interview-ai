@@ -1,4 +1,3 @@
-````markdown
 # 🧠 Excel Interview Quiz — AI-Powered Mock Interview Platform
 
 An intelligent, fully-automated Excel interview platform designed to streamline candidate assessment for recruiters. This AI-enhanced system dynamically generates questions, evaluates candidate responses in real-time using **Google Gemini**, and produces insightful performance summaries — all within a clean browser interface.
@@ -6,13 +5,11 @@ An intelligent, fully-automated Excel interview platform designed to streamline 
 ---
 
 ## 🚀 Live Deployment (Deploy Yourself)
+ Live prject Link : https://singhbp29-excel-interview-ai-main-hd7ao4.streamlit.app/
 
 > Easily deploy via:
 ```bash
 streamlit run main.py
-````
-
-Or push to [Streamlit Cloud](https://streamlit.io/cloud) / [Hugging Face Spaces](https://huggingface.co/spaces).
 
 ---
 
