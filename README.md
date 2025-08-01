@@ -1,3 +1,8 @@
+Here is your **fully updated `README.md` file** — polished, structured, and deploy-ready:
+
+---
+
+````markdown
 # 🧠 Excel Interview Quiz — AI-Powered Mock Interview Platform
 
 An intelligent, fully-automated Excel interview platform designed to streamline candidate assessment for recruiters. This AI-enhanced system dynamically generates questions, evaluates candidate responses in real-time using **Google Gemini**, and produces insightful performance summaries — all within a clean browser interface.
@@ -5,11 +10,14 @@ An intelligent, fully-automated Excel interview platform designed to streamline 
 ---
 
 ## 🚀 Live Deployment (Deploy Yourself)
- Live prject Link : https://singhbp29-excel-interview-ai-main-hd7ao4.streamlit.app/
 
-> Easily deploy via:
+**🔗 Live Project Link:**  
+https://singhbp29-excel-interview-ai-main-hd7ao4.streamlit.app/
+
+> To deploy locally:
 ```bash
 streamlit run main.py
+````
 
 ---
 
@@ -23,9 +31,11 @@ streamlit run main.py
 * [📊 Recruiter Dashboard](#-recruiter-dashboard)
 * [📦 Project Structure](#-project-structure)
 * [⚙️ Local Setup](#️-local-setup)
-* [🛤 Future Enhancements](#-future-enhancements)
 * [🧪 Sample Interviews](#-sample-interviews)
+* [🛤 Future Enhancements](#-future-enhancements)
+* [🙌 Acknowledgements](#-acknowledgements)
 * [📄 License](#-license)
+* [📬 Contact](#-contact)
 
 ---
 
@@ -98,33 +108,33 @@ It ensures:
   * `user_service.py` — session control
   * `leaderboard_service.py` — stores feedback
 * Created clean recruiter dashboard in Streamlit
-* Ensured feedback is mandatory before report access
+* Enforced mandatory feedback before report access
 
 ---
 
 ## 👥 Candidate Workflow
 
-1. Candidate logs in with name and email.
-2. Receives 10 adaptive Excel questions.
-3. Each question is timed (45–90 seconds).
-4. After each answer, feedback + score is shown.
-5. Once all 10 are done:
+1. Candidate logs in with name and email
+2. Receives 10 adaptive Excel questions
+3. Each question is timed (45–90 seconds)
+4. Feedback and score shown after each answer
+5. Post-quiz:
 
    * Final score displayed
-   * Must submit feedback
-   * Downloads PDF report with breakdown
+   * Mandatory feedback submitted
+   * PDF report becomes downloadable
 
 ---
 
 ## 📊 Recruiter Dashboard
 
-1. Logs in securely (`recruiter123`)
-2. Sidebar lists candidate sessions
-3. On selection:
+1. Login using `recruiter123`
+2. Sidebar lists all candidate sessions
+3. Select a candidate:
 
-   * See all answers, scores, and comments
-   * View feedback + "fit for role" recommendation
-   * Download recruiter-version of report
+   * See all responses, scores, and feedback
+   * View "fit for role" status
+   * Download recruiter-version PDF report
 
 ---
 
@@ -149,11 +159,11 @@ It ensures:
 
 ## ⚙️ Local Setup
 
-### 1. Clone Repo
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/excel-interview-quiz.git
-cd excel-interview-quiz
+git clone https://github.com/yourusername/excel-ai-interview-platform.git
+cd excel-ai-interview-platform
 ```
 
 ### 2. Setup Environment
@@ -166,7 +176,7 @@ pip install -r requirements.txt
 
 ### 3. Add Gemini API Key
 
-Create a `.env` file:
+Create a `.env` file in the root directory:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -182,8 +192,6 @@ streamlit run main.py
 
 ## 🧪 Sample Interviews
 
-Example:
-
 ```json
 {
   "name": "John Doe",
@@ -198,17 +206,27 @@ Example:
 }
 ```
 
-> Add screenshots or export sample JSONs if submitting as a portfolio project.
+> Add screenshots or export sample JSONs for showcase
 
 ---
 
 ## 🛤 Future Enhancements
 
-* ✅ Email candidate reports to recruiter automatically
-* ✅ Tag questions by difficulty, topic, or role (HR, Analyst, PM)
-* ✅ OTP-based email verification for candidates
-* ✅ Admin dashboard with CSV export, analytics
-* ✅ Multilingual question support
+* Email candidate reports to recruiter automatically
+* Tag questions by difficulty, topic, or role (HR, Analyst, PM)
+* OTP-based email verification for candidates
+* Admin dashboard with CSV export & analytics
+* Multilingual question and feedback support
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to:
+
+* Google Generative AI (Gemini) for evaluation
+* Streamlit for UI development
+* OpenAI for foundational LLM inspiration
 
 ---
 
@@ -222,7 +240,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 Have questions or want to contribute?
 
-* 💌 `bhanups292004@gmail.com`
-* 🤝 Open issues or PRs on GitHub
-
----
+* 📧 `bhanups292004@gmail.com`
+* 💻 Open issues or PRs on GitHub
